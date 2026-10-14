@@ -5,7 +5,7 @@ function notify(message) {
   notification.style.display = 'block';
 
   notification.addEventListener('click', () => {
-    notification.style.display = 'none';
-  }), { once: true }; //При натискане само веднъж да има ушенце
+       notification.style.display = 'none';
+  }, { once: true }); //При натискане само веднъж да има ушенце
 
 }
